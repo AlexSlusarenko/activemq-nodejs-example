@@ -1,6 +1,10 @@
 ## Overview
 Example of usage [rhea](https://www.npmjs.com/package/rhea) library to connect nodejs application with ActiveMQ
 
+Main discovered features:
+ - prefetch count (process limited number of messages)
+ - confirm messages (remove message from broker only after it confirmed)
+
 ## Dependency
 
 ActiveMQ running locally, in docker or AWS instance

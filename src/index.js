@@ -39,10 +39,10 @@ container.once('sendable', function (context) {
 });
 
 let amazonOpts = {
-  host: 'b-d0161bb0-710d-4481-a386-ae36528464b6-1.mq.us-east-2.amazonaws.com',
+  host: 'xxx.mq.us-east-2.amazonaws.com',
   port: 5671,
-  username: 'admin1',
-  password: 'admin1admin2',
+  username: 'xxx',
+  password: 'xxx',
   transport: "ssl",
   reconnect: true,
 
